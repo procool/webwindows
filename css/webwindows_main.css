@@ -1,0 +1,200 @@
+#webwindows_wrapper {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.webwindows_hidden_ident_class {
+        display: none;
+}
+
+
+.webwindows_style_main {
+        border:1px solid #000;
+        border-radius:5px;
+        position:absolute;
+        //padding: 0em 1em 0em 1em;
+        background-color: #CCCCCC;
+}
+
+  .webwindows_style_main_header {
+	height: 16px;
+	cursor:move;
+	overflow: hidden;
+        position:relative;
+        //background-color: #333388;
+	//background-image: url(/stat/static/img/webwindows/title-fg.png) repeat-x repeat-y;
+	//background: url(/stat/static/img/webwindows/title-bg.png) repeat;
+	background: url(/stat/static/img/webwindows/title-bg.png) repeat;
+  }
+
+  .webwindows_style_main_header_active {
+	background: url(/stat/static/img/webwindows/title-fg.png) repeat;
+  }
+
+    .webwindows_style_main_icon {
+	float: left;
+        //visibility:collapse;
+        display:none;
+	width: 16px;
+	height: 16px;
+    }
+
+    .webwindows_style_main_title {
+	float: left;
+	overflow: hidden;
+        white-space: nowrap;
+        padding: 0em 0.5em 0em 0.5em;
+    }
+
+      .webwindows_style_main_title_tab {
+        float: left;
+        overflow: hidden;
+        white-space: nowrap;
+
+        font-family:'Times New Roman', Times, serif;
+        font-weight:bold;
+        font-size:1em;
+        //font-style:italic;
+        text-align: center;
+        color: #FFFFFF;
+        margin-right: 1px;
+      }
+
+      .webwindows_style_main_title_tab_decor {
+        border-radius: 4px 4px 0 0;
+        border:1px solid #000;
+        color: #ddffee;
+        background-color: #335555;
+        margin-right: 1px;
+      }
+
+      .webwindows_style_main_title_tab_active {
+        background-color: #668877;
+        color: #FFFFFF;
+      }
+
+      .webwindows_style_main_title_tab_abs {
+        position: absolute;
+        border:1px solid #000;
+        border-radius: 4px 4px 0 0;
+        white-space: nowrap;
+        overflow: hidden;
+
+        font-family:'Times New Roman', Times, serif;
+        font-weight:bold;
+        font-size:1em;   
+        text-align: center;
+        color: #FFFFFF;  
+
+
+        //width: 30%;
+        //max-width: 150px;
+        height: 16px;
+        display: none;
+        background-color: #557777;
+      }
+
+
+
+
+
+    .webwindows_style_main_appbuttons {
+	float: right;
+        margin-right: 2px;
+        background-color: #005500;
+    }
+
+      .webwindows_style_main_button_fix {
+                float: left;
+                margin-left: 2px;
+                background-image: url(/stat/static/img/webwindows/fix.png);
+                cursor:pointer;
+                width: 16px;
+                height: 16px;
+      }
+
+
+      .webwindows_style_main_button_minimize {
+                float: left;
+                background-image: url(/stat/static/img/webwindows/minimize.png);
+                cursor:pointer;
+                width: 16px;
+                height: 16px;
+      }
+
+      .webwindows_style_main_button_maximize {
+                float: left;
+		background-image: url(/stat/static/img/webwindows/maximize.png);
+		cursor:pointer;
+		width: 16px;
+		height: 16px;
+      }
+
+      .webwindows_style_main_button_close {
+                float: left;
+                background-image: url(/stat/static/img/webwindows/close.png);
+                cursor:pointer;
+                width: 16px;
+                height: 16px;
+      }
+
+      .webwindows_style_main_button_resize {
+                float: right;
+                background-image: url(/stat/static/img/webwindows/resize-s.png);
+                cursor:pointer;
+                width: 8px;
+                height: 8px;
+		margin-right: 1px;
+		cursor:se-resize;
+      }
+
+
+
+
+    .webwindows_style_main_body {
+        //position:relative;
+        overflow: hidden;
+    }
+      .webwindows_style_main_tabs_tab {
+	cursor:default;
+	height: 100%;
+	clear: both;
+        background-color: #CCCCCC;
+        //position:absolute;
+	color: #000000;
+	//text-align: left;
+	overflow: auto;
+	margin-right: 1px;
+      }
+
+      .webwindows_style_main_fader {
+	width: 100%;
+	height: inherit;
+	opacity: 0.4;
+	display: none;
+        cursor:default;
+                
+	//background: #000000 url(/stat/static/img/loading.gif) no-repeat;
+	background: #000000 url(/stat/static/img/webwindows/wait-light.gif) no-repeat;
+	background-position: center center;
+	background-size: 10%;
+        position:absolute;
+        overflow: hidden;
+        margin-right: 1px;
+      }
+
+
+      .webwindows_style_main_tabs {
+	width: 100%;
+	height: inherit;
+	//opacity: 0.4;
+	display: block;
+	cursor:default;
+	
+        background-color: #CCCCCC;
+	position:absolute;
+	overflow: hidden;
+	margin-right: 1px;
+      }
+
